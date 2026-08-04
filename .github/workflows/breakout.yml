@@ -20,12 +20,16 @@ jobs:
         uses: cyprieng/github-breakout@v1
         with:
           github_username: ${{ github.repository_owner }}
+          paddle_color: "#64748b"
+          ball_color: "#22d3ee"
+          bricks_colors: "#0e3a45,#12525f,#0e7490,#06b6d4,#67e8f9"
 
       - name: Move generated SVGs to temp
         run: |
           mkdir -p /tmp/breakout-images
           mv output/light.svg /tmp/breakout-images/breakout-light.svg
           mv output/dark.svg /tmp/breakout-images/breakout-dark.svg
+          mv output/custom.svg /tmp/breakout-images/breakout.svg
 
       - name: Configure git
         run: |

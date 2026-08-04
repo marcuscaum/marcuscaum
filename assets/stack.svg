@@ -1,0 +1,123 @@
+<svg width="900" height="420" viewBox="0 0 900 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="dots2" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#101A24"/>
+    </pattern>
+  </defs>
+
+  <rect width="900" height="420" fill="#0A0E14"/>
+  <rect width="900" height="420" fill="url(#dots2)"/>
+  <rect x="0.5" y="0.5" width="899" height="419" stroke="#1B2530"/>
+
+  <path d="M1 15V1H15" stroke="#06B6D4" stroke-width="2"/>
+  <path d="M885 1H899V15" stroke="#06B6D4" stroke-width="2"/>
+  <path d="M899 405V419H885" stroke="#06B6D4" stroke-width="2"/>
+  <path d="M15 419H1V405" stroke="#06B6D4" stroke-width="2"/>
+
+  <rect x="1" y="0" width="898" height="2" fill="#22D3EE" opacity="0.05">
+    <animate attributeName="y" values="0;418;0" dur="11s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="24" y="52" font-family="ui-monospace,'Cascadia Code','SF Mono',Consolas,monospace" font-size="14" font-weight="700" fill="#22D3EE" letter-spacing="2">// STACK</text>
+  <line x1="130" y1="47" x2="876" y2="47" stroke="#1B2530"/>
+
+  <!-- LANGUAGES -->
+  <g opacity="0" font-family="ui-monospace,'Cascadia Code','SF Mono',Consolas,monospace">
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.15s" fill="freeze"/>
+    <text x="24" y="114" font-size="11" fill="#4E5D6C" letter-spacing="3">LANGUAGES</text>
+    <rect x="200" y="96" width="102" height="26" fill="#082530" stroke="#0E7490"/>
+    <text x="251" y="114" text-anchor="middle" font-size="13" fill="#4DD8F0">TypeScript</text>
+    <rect x="312" y="96" width="102" height="26" fill="#0F1620" stroke="#223140"/>
+    <text x="363" y="114" text-anchor="middle" font-size="13" fill="#C9D5E1">JavaScript</text>
+    <rect x="424" y="96" width="71" height="26" fill="#0F1620" stroke="#223140"/>
+    <text x="459.5" y="114" text-anchor="middle" font-size="13" fill="#C9D5E1">Python</text>
+    <rect x="505" y="96" width="40" height="26" fill="#0F1620" stroke="#223140"/>
+    <text x="525" y="114" text-anchor="middle" font-size="13" fill="#C9D5E1">Go</text>
+    <rect x="555" y="96" width="55" height="26" fill="#0F1620" stroke="#223140"/>
+    <text x="582.5" y="114" text-anchor="middle" font-size="13" fill="#C9D5E1">Ruby</text>
+    <rect x="620" y="96" width="55" height="26" fill="#0F1620" stroke="#223140"/>
+    <text x="647.5" y="114" text-anchor="middle" font-size="13" fill="#C9D5E1">Luau</text>
+  </g>
+
+  <!-- BACKEND -->
+  <g opacity="0" font-family="ui-monospace,'Cascadia Code','SF Mono',Consolas,monospace">
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.3s" fill="freeze"/>
+    <text x="24" y="168" font-size="11" fill="#4E5D6C" letter-spacing="3">BACKEND</text>
+    <rect x="200" y="150" width="47" height="26" fill="#082530" stroke="#0E7490"/>
+    <text x="223.5" y="168" text-anchor="middle" font-size="13" fill="#4DD8F0">Bun</text>
+    <rect x="257" y="150" width="79" height="26" fill="#0F1620" stroke="#223140"/>
+    <text x="296.5" y="168" text-anchor="middle" font-size="13" fill="#C9D5E1">Node.js</text>
+    <rect x="346" y="150" width="71" height="26" fill="#0F1620" stroke="#223140"/>
+    <text x="381.5" y="168" text-anchor="middle" font-size="13" fill="#C9D5E1">Elysia</text>
+    <rect x="427" y="150" width="79" height="26" fill="#0F1620" stroke="#223140"/>
+    <text x="466.5" y="168" text-anchor="middle" font-size="13" fill="#C9D5E1">Drizzle</text>
+    <rect x="516" y="150" width="102" height="26" fill="#0F1620" stroke="#223140"/>
+    <text x="567" y="168" text-anchor="middle" font-size="13" fill="#C9D5E1">PostgreSQL</text>
+    <rect x="628" y="150" width="71" height="26" fill="#0F1620" stroke="#223140"/>
+    <text x="663.5" y="168" text-anchor="middle" font-size="13" fill="#C9D5E1">SQLite</text>
+    <rect x="709" y="150" width="63" height="26" fill="#0F1620" stroke="#223140"/>
+    <text x="740.5" y="168" text-anchor="middle" font-size="13" fill="#C9D5E1">Redis</text>
+  </g>
+
+  <!-- FRONTEND -->
+  <g opacity="0" font-family="ui-monospace,'Cascadia Code','SF Mono',Consolas,monospace">
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.45s" fill="freeze"/>
+    <text x="24" y="222" font-size="11" fill="#4E5D6C" letter-spacing="3">FRONTEND</text>
+    <rect x="200" y="204" width="63" height="26" fill="#0F1620" stroke="#223140"/>
+    <text x="231.5" y="222" text-anchor="middle" font-size="13" fill="#C9D5E1">React</text>
+    <rect x="273" y="204" width="79" height="26" fill="#0F1620" stroke="#223140"/>
+    <text x="312.5" y="222" text-anchor="middle" font-size="13" fill="#C9D5E1">Next.js</text>
+    <rect x="362" y="204" width="63" height="26" fill="#0F1620" stroke="#223140"/>
+    <text x="393.5" y="222" text-anchor="middle" font-size="13" fill="#C9D5E1">Astro</text>
+    <rect x="435" y="204" width="86" height="26" fill="#0F1620" stroke="#223140"/>
+    <text x="478" y="222" text-anchor="middle" font-size="13" fill="#C9D5E1">Tailwind</text>
+    <rect x="531" y="204" width="55" height="26" fill="#0F1620" stroke="#223140"/>
+    <text x="558.5" y="222" text-anchor="middle" font-size="13" fill="#C9D5E1">Expo</text>
+    <rect x="596" y="204" width="63" height="26" fill="#0F1620" stroke="#223140"/>
+    <text x="627.5" y="222" text-anchor="middle" font-size="13" fill="#C9D5E1">Tauri</text>
+  </g>
+
+  <!-- AI / AUTOMATION -->
+  <g opacity="0" font-family="ui-monospace,'Cascadia Code','SF Mono',Consolas,monospace">
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.6s" fill="freeze"/>
+    <text x="24" y="276" font-size="11" fill="#4E5D6C" letter-spacing="3">AI / AGENTS</text>
+    <rect x="200" y="258" width="125" height="26" fill="#082530" stroke="#0E7490"/>
+    <text x="262.5" y="276" text-anchor="middle" font-size="13" fill="#4DD8F0">Claude Agents</text>
+    <rect x="335" y="258" width="125" height="26" fill="#0F1620" stroke="#223140"/>
+    <text x="397.5" y="276" text-anchor="middle" font-size="13" fill="#C9D5E1">LLM Pipelines</text>
+    <rect x="470" y="258" width="125" height="26" fill="#0F1620" stroke="#223140"/>
+    <text x="532.5" y="276" text-anchor="middle" font-size="13" fill="#C9D5E1">WhatsApp Bots</text>
+    <rect x="605" y="258" width="110" height="26" fill="#0F1620" stroke="#223140"/>
+    <text x="660" y="276" text-anchor="middle" font-size="13" fill="#C9D5E1">MCP Servers</text>
+    <rect x="725" y="258" width="47" height="26" fill="#0F1620" stroke="#223140"/>
+    <text x="748.5" y="276" text-anchor="middle" font-size="13" fill="#C9D5E1">RAG</text>
+  </g>
+
+  <!-- INFRA -->
+  <g opacity="0" font-family="ui-monospace,'Cascadia Code','SF Mono',Consolas,monospace">
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.75s" fill="freeze"/>
+    <text x="24" y="330" font-size="11" fill="#4E5D6C" letter-spacing="3">INFRA</text>
+    <rect x="200" y="312" width="71" height="26" fill="#0F1620" stroke="#223140"/>
+    <text x="235.5" y="330" text-anchor="middle" font-size="13" fill="#C9D5E1">Docker</text>
+    <rect x="281" y="312" width="63" height="26" fill="#0F1620" stroke="#223140"/>
+    <text x="312.5" y="330" text-anchor="middle" font-size="13" fill="#C9D5E1">Nginx</text>
+    <rect x="354" y="312" width="94" height="26" fill="#0F1620" stroke="#223140"/>
+    <text x="401" y="330" text-anchor="middle" font-size="13" fill="#C9D5E1">Linux VPS</text>
+    <rect x="458" y="312" width="102" height="26" fill="#0F1620" stroke="#223140"/>
+    <text x="509" y="330" text-anchor="middle" font-size="13" fill="#C9D5E1">Cloudflare</text>
+    <rect x="570" y="312" width="71" height="26" fill="#0F1620" stroke="#223140"/>
+    <text x="605.5" y="330" text-anchor="middle" font-size="13" fill="#C9D5E1">Vercel</text>
+    <rect x="651" y="312" width="133" height="26" fill="#0F1620" stroke="#223140"/>
+    <text x="717.5" y="330" text-anchor="middle" font-size="13" fill="#C9D5E1">GitHub Actions</text>
+  </g>
+
+  <!-- status bar -->
+  <g font-family="ui-monospace,'Cascadia Code','SF Mono',Consolas,monospace">
+    <line x1="24" y1="366" x2="876" y2="366" stroke="#1B2530"/>
+    <circle cx="30" cy="392" r="3.5" fill="#22D3EE">
+      <animate attributeName="opacity" values="1;0.25;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="44" y="396" font-size="12" fill="#58687A" letter-spacing="1">status: shipping daily</text>
+    <text x="876" y="396" text-anchor="end" font-size="12" fill="#3D4C5C" letter-spacing="1">// kodama.solutions</text>
+  </g>
+</svg>
